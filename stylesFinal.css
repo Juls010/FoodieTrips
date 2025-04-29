@@ -1,19 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Cardo", serif;
+    font-weight: 700;
     color: rgb(29, 28, 28);
     text-decoration: none;
 }
 
 .navbar {
-    font-size: 13px;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
-    background-color: rgb(244, 228, 210);
-    color: white;
+    padding: 40px 30px;
+    background-color: #EFEAE7;
+    
     position: relative;
 }
 .navbar .left {
@@ -30,8 +31,8 @@
     content: '';
     position: absolute;
     bottom: 0;
-    left: 2;
-    width: 90%;
-    height: 0.5px;
-    background-color: rgb(47, 24, 3);
+    left: 0;
+    width: 9100%;
+    height: 0.09px;
+    background-color: #7e400a;
 }
