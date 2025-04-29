@@ -1,4 +1,4 @@
-body {
+*{
     margin: 0;
     padding: 0;
     font-family: "Cardo", serif;
@@ -9,25 +9,76 @@ body {
 }
 
 .navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 30px;
+    padding: 5px 30px;
     text-decoration: none;
     position: relative;
 }
-.navbar .left {
-    list-style: none;
-    color: rgb(29, 28, 28);
+.left  {
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    margin-left:  8%;
 }
-.navbar .rigth {
-    list-style: none;
+
+.left a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.left a::after {
+    content: '';  
+    position: absolute;
+    bottom: 0;  
+    left: 0;
+    width: 0;  
+    height: 1px;  
+    background-color: #000; 
+    transition: width 0.3s ease;  
+}
+.left a:hover::after,
+.rigth a:hover::after {
+    width: 100%;
+}
+
+.center {
+    margin-top: 0;
+    text-align: center;
+}
+.center img {
+    width: 40%;
+    max-width: 100%;  
+    height: auto;
+}
+.rigth {
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    margin-right: 8%;
 }
+
+.rigth a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.rigth a::after {
+    content: '';  
+    position: absolute;
+    bottom: 0;  
+    left: 0;
+    width: 0;  
+    height: 1px;  
+    background-color: #000; 
+    transition: width 0.3s ease;  
+}
+
+
 .navbar::after {
     content: '';
     position: absolute;
@@ -66,3 +117,6 @@ footer .social-icons a {
     transition: color 0.3s;
 }
 
+.init {
+    margin-left: 8%;
+}
