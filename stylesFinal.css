@@ -152,7 +152,10 @@ p.description {
     margin-left: 8%;
     margin-right: 20%;
 }
-.button {
+.button,
+a.button,
+a.mainButton,
+button.mainButton {
     gap:20px;
     display: inline-block;
     justify-content: baseline;
@@ -214,4 +217,46 @@ p.description {
 .button span {
     z-index: 1;
     position: relative;
+}
+.mainButton {
+    display: inline-block;
+    background-color: azure;
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card img {
+
+}
+
+.card h3 {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card .cardButton {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.card p {
+    clear: both;
+    text-align: left;
 }
