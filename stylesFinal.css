@@ -23,14 +23,13 @@ a {
 
 .navbar {
     font-weight:700;
-    margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px 30px;
+    padding: 1px 30px;
     text-decoration: none;
     position: relative;
 }
@@ -117,7 +116,7 @@ footer {
     left: 8%;
     width: 84%;
     height: 0.09px;
-    background-color:#1d1814 ;
+    background-color:#7e400a ;
 }
 .social-icons {
     padding: 20px 10px;
@@ -128,7 +127,7 @@ footer {
 }
 
 footer .social-icons a {
-    color: #1d1814 ;
+    color: #7e400a ;
     font-size: 24px;
     text-decoration: none;
     transition: color 0.3s;
