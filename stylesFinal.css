@@ -1,14 +1,28 @@
-*{
+
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
-    font-family: "Cardo", serif;
-    font-weight: 700;
-    color: #1d1c1c;
-    text-decoration: none;
-    background-color: #EFEAE7;
+    box-sizing: border-box;
 }
 
+
+html, body {
+    font-family: "Cardo", serif;
+    background-color: #EFEAE7;
+    color: #1d1c1c;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 .navbar {
+    font-weight:700;
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -21,8 +35,9 @@
     position: relative;
 }
 .left  {
+    list-style: none;
     display: flex;
-    gap: 40px;
+    gap: 70px;
     margin-left:  8%;
 }
 
@@ -58,8 +73,9 @@
     height: auto;
 }
 .rigth {
+    list-style: none;
     display: flex;
-    gap: 40px;
+    gap: 70px;
     margin-right: 8%;
 }
 
@@ -89,6 +105,7 @@
     background-color: #7e400a;
 }
 footer {
+    font-weight:700;
     position: relative;
     text-align: center;
     padding: 20px 10px;
@@ -100,7 +117,7 @@ footer {
     left: 8%;
     width: 84%;
     height: 0.09px;
-    background-color:#7e400a ;
+    background-color:#1d1814 ;
 }
 .social-icons {
     padding: 20px 10px;
@@ -111,12 +128,91 @@ footer {
 }
 
 footer .social-icons a {
-    color: #7e400a ;
+    color: #1d1814 ;
     font-size: 24px;
     text-decoration: none;
     transition: color 0.3s;
 }
 
-.init {
+h2 {
+    font-size: 30px;
+    gap: 20px;
+    display: flex;
+    justify-content:baseline;
+    padding: 20px 10px;
+    margin-left:  8%;
+}
+
+p.description {
+    font-size: 20px;
+    font-weight:700;
+    gap:20px;
+    display: flex;
+    justify-content: baseline;
+    padding: 20px 10px;
     margin-left: 8%;
+    margin-right: 20%;
+}
+.button {
+    gap:20px;
+    display: inline-block;
+    justify-content: baseline;
+    margin-left: 8%;
+    margin-right: 20%;
+    appearance: none;
+    background-color: #EBEBEB;
+    border: 2px solid #a78364;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    color: #1b0101;
+    cursor: pointer;
+    font-family: "Cardo";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.2em;
+    opacity: 1;
+    outline: 0;
+    padding: 0.4em 1.2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: geometricprecision;
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+
+.button:before {
+    animation: opacityFallbackOut .5s step-end forwards;
+    backface-visibility: hidden;
+    background-color: #a78364;
+    clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    opacity: 1;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    transform: translateZ(0);
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+}
+
+.button:hover:before {
+    animation: opacityFallbackIn 0s step-start forwards;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.button:after {
+    background-color: #FFFFFF;
+    display: none;
+}
+
+.button span {
+    z-index: 1;
+    position: relative;
 }
