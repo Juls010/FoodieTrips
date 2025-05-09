@@ -20,18 +20,25 @@ a {
     color: inherit;
 }
 
+header {
+    padding: 5px 20px; 
+}
 
 .navbar {
     font-weight:700;
     margin-bottom: 0;
     padding-bottom: 0;
+    height: 150px;
     font-size: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1px 30px;
+    padding: 10px 20px;
     text-decoration: none;
     position: relative;
+}
+.navbar ul li a {
+    font-size: 20px;
 }
 .left  {
     list-style: none;
@@ -58,7 +65,7 @@ a {
 }
 
 .left a:hover::after,
-.rigth a:hover::after {
+.right a:hover::after {
     width: 100%;
 }
 
@@ -67,23 +74,23 @@ a {
     text-align: center;
 }
 .center img {
-    width: 40%;
+    width: 50%;
     max-width: 100%;  
     height: auto;
 }
-.rigth {
+.right {
     list-style: none;
     display: flex;
     gap: 70px;
     margin-right: 8%;
 }
 
-.rigth a {
+.right a {
     text-decoration: none;
     color: black;
     position: relative;
 }
-.rigth a::after {
+.right a::after {
     content: '';  
     position: absolute;
     bottom: 0;  
@@ -134,12 +141,13 @@ footer .social-icons a {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     gap: 20px;
     display: flex;
     justify-content:baseline;
     padding: 20px 10px;
     margin-left:  8%;
+    margin-top: 15px;
 }
 
 p.description {
@@ -151,6 +159,7 @@ p.description {
     padding: 20px 10px;
     margin-left: 8%;
     margin-right: 20%;
+    line-height: 1.6;
 }
 .button,
 a.button,
@@ -159,7 +168,8 @@ button.mainButton {
     gap:20px;
     display: inline-block;
     justify-content: baseline;
-    margin-left: 8%;
+    margin-top: 2%;
+    margin-left: 9%;
     margin-right: 20%;
     appearance: none;
     background-color: #EBEBEB;
@@ -185,6 +195,7 @@ button.mainButton {
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: baseline;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .button:before {
@@ -226,37 +237,59 @@ button.mainButton {
     border: none;
     text-decoration: none;
     border-radius: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .cardsContainer {
-    display: grid;
-    grid-template-columns: repeat (2, 1fr);
-    gap: 20px;
-    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between; 
+    gap: 20px;                      
+    padding: 20px 8%; 
+    flex-wrap: wrap;  
 }
 
+.card .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+}
 .card {
-    border: 1px solid black;
+    flex: 0 0 calc(25% - 20px);
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 5px;
+    min-width: 200px;
 }
 
 .card img {
-
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    object-fit: cover;
 }
 
 .card h3 {
-    text-align: left;
-    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 20px;
 }
 
 .card .cardButton {
-    float: right;
-    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #a78364;
+    margin-top: 20px;
 }
 
 .card p {
     clear: both;
     text-align: left;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-weight: 700;
 }
