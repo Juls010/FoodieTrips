@@ -294,18 +294,41 @@ button.mainButton {
     font-weight: 700;
 }
 
+.detailTrips {
+    display: flex;
+    justify-content: center;
+}
+
+.cardDetail {
+    text-align: center;
+    width: 40%;
+}
+
 .cardDetail img {
-    width: 55%;
+    width: 100%;
     height: auto;
     border-radius: 2px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-.detailTrips{
-    justify-content: center;
-    display: flex;
-    margin-left: 31%;
+.title {
+    background-color: #8a4f2f;
+    color: white;
+    padding: 12px 24px;
+    margin-top: -40px;
+    display: inline-block;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
 }
 
-.cardHeader h3 {
-    
+
+.textDetail p {
+    clear: both;
+    text-align: left;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-weight: 700;
+    justify-content: baseline;
 }
