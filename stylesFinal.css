@@ -308,7 +308,7 @@ button.mainButton {
     width: 100%;
     height: auto;
     border-radius: 2px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .title {
@@ -329,6 +329,48 @@ button.mainButton {
     text-align: left;
     line-height: 1.6;
     margin-top: 20px;
+    margin-bottom: 25px;
     font-weight: 700;
     justify-content: baseline;
 }
+
+.season {
+    position: relative;
+    background-image: url(https://res.cloudinary.com/dc4u0bzgh/image/upload/v1747325093/1.Asia_Map_transparent_png8_wqqeut.webp);
+    background-repeat: no-repeat;
+    background-color: #dad0cb;
+    background-size: 55%;
+    background-position: right 20%;
+    height: 400px; 
+    background-color: #dad0cb ;
+    padding: 30px;
+}
+
+.contentSeason {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 90px;
+}
+
+.infoBox {
+    width: 250px; 
+    padding: 20px;
+    border: 1.5px solid #8a4f2f;
+    border-radius: 2px;
+    background-color: #dad0cb;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.infoBox h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.infoBox p {
+    margin: 8px 0 0 0;
+    font-size: 1rem;
+}
+
