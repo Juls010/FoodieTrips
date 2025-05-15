@@ -328,8 +328,8 @@ button.mainButton {
     clear: both;
     text-align: left;
     line-height: 1.6;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 60px;
     font-weight: 700;
     justify-content: baseline;
 }
