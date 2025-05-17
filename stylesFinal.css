@@ -346,14 +346,18 @@ button.mainButton {
     font-size: 1rem;
 }
 
+.containerInfo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
 .infoContact {
-    max-width: 800px;       
-    margin: 0 auto;         
-    padding: 60px 20px;     
-    text-align: left;          
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-align: left;    
 }
 .infoContact h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
 }
 
@@ -364,7 +368,7 @@ button.mainButton {
 
 .contact {
     background-image: url('https://res.cloudinary.com/dc4u0bzgh/image/upload/v1743502354/Viaje-a-Sudafrica-Malawane-Lodge-Royal-Suite_cskuif.webp');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f1ebe7;
@@ -376,8 +380,9 @@ button.mainButton {
     margin-bottom: 80px;
 }
 
+
 .formContainer {
-    background-color: rgba(255, 255, 255, 0.85); /* Blanco semitransparente */
+    background-color: rgba(255, 255, 255, 0.85);
     padding: 40px;
     border-radius: 5px;
     border: #000;
@@ -398,30 +403,40 @@ form {
 }
 
 input {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid #8a4f2f;
     border-radius: 4px;
 }
 
 button {
     padding: 10px;
-    background-color: black;
+    background-color: black;    
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
+.decorative-line {
+    border: none;
+    height: 1.4px;
+    width: 80%;
+    background-color: #8a4f2f;
+    margin: 10px auto 20px auto; 
+
+}
+
 .formContainer p {
     text-align: center;
     margin-top: 20px;
 }
+
 a {
-    color: #d65d0c;
+    color: #e96a16;
     text-decoration: none;
 }
-
 
 
 footer {
