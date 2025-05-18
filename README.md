@@ -1,56 +1,74 @@
-# FoodieTrips~
-Cloudinary: [images](https://collection.cloudinary.com/dc4u0bzgh/9d806f91089328b062e859d32a814a90)
-# 🍽️ FoodieTrips
+# FoodieTrips
 
-**FoodieTrips** es una landing page que invita a explorar el mundo a través de los sabores. Este proyecto web presenta experiencias de viajes gastronómicos exclusivas en diferentes destinos del mundo, donde la cultura y la cocina se entrelazan para ofrecer vivencias únicas.
+**FoodieTrips** is a landing page focused on promoting **exclusive culinary trips** around the world. Its goal is to spark user interest in new gastronomic experiences through attractive and minimalist visual design.
 
 ![FoodieTrips Cover](https://res.cloudinary.com/dotmu7nhf/image/upload/v1745928439/Logo_FoodieTrips_a5xywz.png)
 
-## 🌍 ¿Qué ofrece FoodieTrips?
+## *What does FoodieTrips offer?*
 
-En esta landing descubrirás:
+On this landing page, you’ll discover:
 
-- Destinos culinarios como Corea del Sur, Perú, Tailandia y Jordania.
-- Experiencias inmersivas con chefs reconocidos y cenas privadas en lugares emblemáticos.
-- Información detallada sobre el clima, temporadas ideales para viajar y consejos para organizar tu viaje.
-- Formulario de registro para comenzar a diseñar tu experiencia gastronómica personalizada.
+- Culinary destinations such as South Korea, Peru, Thailand, and Jordan, among others.
+- Immersive experiences with renowned chefs and private dinners in iconic locations.
+- Detailed information about the weather, ideal travel seasons, and tips for organizing your trip.
+- A registration form to start designing your personalized culinary experience.
 
-## 🛠️ Tecnologías utilizadas
+## *Technologies Used*
 
-- **HTML5**: Estructura semántica y accesible.
-- **CSS3**: Estilos personalizados con diseño responsive.
-- **Google Fonts**: Tipografía elegante con la fuente `Cardo`.
-- **Font Awesome**: Iconos sociales y de navegación.
-- **Cloudinary**: Gestión y alojamiento de imágenes.
+- **HTML**
+- **CSS**
+- **Google Fonts**
+- **Font Awesome**
+- **Cloudinary**
+- **Vercel**
 
-## 📁 Estructura del proyecto
+## 📸 Project Screenshots
 
-
-## 🔗 Enlace de demostración
-
-Puedes ver el proyecto en vivo [aquí](#) *(añade la URL de GitHub Pages si lo despliegas)*
-
-## ✨ Capturas de pantalla
-
-| Vista de tarjetas de destinos | Detalle de experiencia |
-|------------------------------|--------------------------|
-| ![Corea del Sur](https://res.cloudinary.com/dc4u0bzgh/image/upload/v1743502353/Comida-coreana-mastercall-Corea-r1e39wysdssxrs2uvnpohhmmnx7gweff6shfxvzbmo_py7unv.jpg) | ![Detalle](https://res.cloudinary.com/dc4u0bzgh/image/upload/v1743502353/Comida-coreana-mastercall-Corea-r1e39wysdssxrs2uvnpohhmmnx7gweff6shfxvzbmo_py7unv.jpg) |
-
-## 🧠 Inspiración
-
-FoodieTrips nace de la idea de conectar la pasión por los viajes y la cocina, creando una plataforma visualmente atractiva que despierte el apetito y las ganas de descubrir el mundo a través de sus sabores.
-
-## 🚀 Próximas mejoras
-
-- Añadir funcionalidad con JavaScript para hacer la experiencia más dinámica.
-- Integrar un sistema de autenticación real y backend para gestionar registros.
-- Ampliar el número de destinos y experiencias.
-
-## 🤝 Contribuciones
-
-Este proyecto es parte de un desarrollo personal. ¡Estás invitado/a a aportar ideas o mejoras! Puedes abrir un issue o enviar un pull request.
+### Destination Overview
+![Overview](https://res.cloudinary.com/dc4u0bzgh/image/upload/v1747579776/1_mibp74.png)
 
 ---
 
-**Hecho con cariño por Julia ❤️**
+### Destination Detail
+![Mobile View](https://res.cloudinary.com/dc4u0bzgh/image/upload/v1747579776/2_fhmzkd.png)
+
+---
+
+### Ideal Weather Conditions
+![Experiences](https://res.cloudinary.com/dc4u0bzgh/image/upload/v1747579777/3_qhv81n.png)
+
+## *Figma Design*
+
+You can view the FoodieTrips design in Figma by clicking the following link:
+
+[Figma – FoodieTrips Design](https://www.figma.com/design/CtAkCVm4uud9jc3FYms0NV/FoodieTrips?node-id=0-1&t=oyFSGJjiBowESWWG-1)
+
+> The design showcases the visual structure conceived for the culinary travel landing page, including color palette, typography, and content layout.
+
+## *Project Deployment*
+
+You can see the live landing page thanks to **Vercel**:  
+👉 [https://foodietrips.vercel.app](https://foodie-trips.vercel.app/)
+
+## *Images*
+
+The images for this project are hosted on **Cloudinary** to optimize loading and management.
+
+Public collection:  
+👉 [https://collection.cloudinary.com/dc4u0bzgh/9d806f91089328b062e859d32a814a90](https://collection.cloudinary.com/dc4u0bzgh/9d806f91089328b062e859d32a814a90)
+
+## 🚀 *Upcoming Improvements*
+
+- Add JavaScript functionality to create a more dynamic experience.
+- Integrate a real authentication system and backend to manage registrations.
+- Expand the number of destinations and experiences.
+
+## 🤝 *Contributions*
+
+This project is part of an academic course. You're welcome to contribute ideas or improvements! You can open an issue or send a pull request.
+
+---
+
+*Lovingly crafted by Julia*
+
 
