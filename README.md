@@ -65,7 +65,7 @@ Public collection:
 - Integrate a real authentication system and backend to manage registrations.
 - Expand the number of destinations and experiences.
 
-## 🤝 *Contributions*
+## *Contributions*
 
 This project is part of an academic course. You're welcome to contribute ideas or improvements! You can open an issue or send a pull request.
 
