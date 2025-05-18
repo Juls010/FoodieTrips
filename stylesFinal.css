@@ -70,8 +70,11 @@ header {
 }
 
 .center {
-    margin-top: 0;
-    text-align: center;
+    flex-shrink: 0;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
 }
 .center img {
     width: 50%;
