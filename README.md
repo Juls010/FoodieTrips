@@ -3,7 +3,7 @@
 **FoodieTrips** is a landing page focused on promoting **exclusive culinary trips** around the world. Its goal is to spark user interest in new gastronomic experiences through attractive and minimalist visual design.
 
 <div align="center">
-  <img src="https://res.cloudinary.com/dc4u0bzgh/image/upload/v1747497137/letra-f_p7i8qb.png" alt="FoodieTrips Cover" width="200"/>
+  <img src="https://res.cloudinary.com/dc4u0bzgh/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1747749976/Logo_FoodieTrips_qeuapr_1_pseeru.png" alt="FoodieTrips Logo" width="500"/>
 </div>
 
 ## *What does FoodieTrips offer?*
